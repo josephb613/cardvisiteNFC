@@ -43,11 +43,11 @@ export default function Home() {
             <div className="text-left space-y-2 flex-1">
               <div className="space-y-1">
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-                  John Doe
+                  Joseph basix
                 </h1>
-                <p className="text-xl text-muted-foreground">Ingénieur Logiciel Senior</p>
+                <p className="text-xl text-muted-foreground">Fullstack Engineer</p>
                 <p className="text-sm text-muted-foreground flex items-center gap-1">
-                  <Building2 className="w-4 h-4" /> Tech Company Inc.
+                  <Building2 className="w-4 h-4" /> ITM Sarl
                 </p>
                 <p className="text-sm text-muted-foreground flex items-center gap-1">
                   <MapPin className="w-4 h-4" /> Silicon Valley, CA
@@ -65,8 +65,8 @@ export default function Home() {
           {/* Actions Rapides */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <Button className="w-full gap-2" variant="default">
-              <Download className="w-4 h-4" />
-              Enregistrer Contact
+              <Download className="w-4 h-4 " />
+              Enregistrer
             </Button>
             <Button variant="outline" className="gap-2">
               <Mail className="w-4 h-4" />
