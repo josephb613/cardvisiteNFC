@@ -26,7 +26,7 @@ export default function Home() {
           <div className="absolute -bottom-16 left-6 z-10">
             <div className="relative w-32 h-32 rounded-xl overflow-hidden border-4 border-background shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&fit=crop"
+                src="https://res.cloudinary.com/dqrs3xyic/image/upload/v1729627620/mes%20photo/passe_yopygc.png"
                 alt="Photo de profil"
                 fill
                 className="object-cover hover:scale-110 transition-transform duration-300"
@@ -50,14 +50,14 @@ export default function Home() {
                   <Building2 className="w-4 h-4" /> ITM Sarl
                 </p>
                 <p className="text-sm text-muted-foreground flex items-center gap-1">
-                  <MapPin className="w-4 h-4" /> Silicon Valley, CA
+                  <MapPin className="w-4 h-4" /> HQ. - 272, Av. Colonel Mondjiba, Kinshasa-Ngaliema
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 pt-2">
                 <Badge variant="secondary">React</Badge>
                 <Badge variant="secondary">Node.js</Badge>
                 <Badge variant="secondary">TypeScript</Badge>
-                <Badge variant="secondary">Architecture Cloud</Badge>
+               
               </div>
             </div>
           </div>
